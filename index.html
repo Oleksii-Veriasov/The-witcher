@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="./css/swiper.min.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -66,12 +67,60 @@
         <!-- /.play -->
       </div>
       <!-- /.main-content -->
+      <div class="series">
+        <div class="swiper-container">
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="card series-1">
+                <span class="card-subtitle">Episode #1</span>
+                <h2 class="card-title">Beginning of the End</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card series-2">
+                <span class="card-subtitle">Episode #2</span>
+                <h2 class="card-title">Four characters</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card series-3">
+                <span class="card-subtitle">Episode #3</span>
+                <h2 class="card-title">Four characters</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="arrow"></button>
+
+      </div>
     </div>
+
     <!-- /.container -->
   </main>
-  <footer>
-
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="left">
+          <span class="copyright">© 2020 The Witcher. All right reserved.</span>
+        </div>
+        <!-- /.left -->
+        <div class="right">
+          <nav class="footer-menu">
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Terms of Service</a>
+            <a href="#" class="footer-link">Legal</a>
+          </nav>
+        </div>
+        <!-- /.right -->
+      </div>
+      <!-- /.footer-content -->
+    </div>
   </footer>
+  <script src="./js/swiper.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
